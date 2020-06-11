@@ -12,7 +12,7 @@
 # A chapter w/ a collection of sections beneath it
   header: Code Examples
 - title: Example
-  url: /03Code/manualscriptCalculations
+  url: /03Code/manuscriptCalculations
   not_numbered: true
 
 # Divider for meta-pages and content page
