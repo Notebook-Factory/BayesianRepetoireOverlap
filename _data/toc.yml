@@ -1,0 +1,24 @@
+# Add a header and sample content section
+- header: Content
+
+- title: Introduction
+  url: /01Introduction/intro
+  not_numbered: true
+  
+- title: Abstract
+  url: /02Abstract/abstract
+  not_numbered: true
+- divider: true
+# A chapter w/ a collection of sections beneath it
+  header: Code Examples
+- title: Example
+  url: /03Code/manualscriptCalculations
+  not_numbered: true
+
+# Divider for meta-pages and content page
+- divider: true
+
+- title: Original code 
+  url: https://github.com/dblarremore/BayesianRepertoireOverlap
+  external: true
+  not_numbered: true
