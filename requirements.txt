@@ -9,3 +9,4 @@ nbinteract
 scipy
 palettable
 jupyter-book
+plotly
