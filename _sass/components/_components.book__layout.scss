@@ -36,6 +36,12 @@ $topbar-height: 60px;
   margin: 0 0 0 auto;
 }
 
+
+
+.c-textbook__content, .c-textbook__footer {
+    max-width: 1880px;
+}
+
 .c-topbar {
   background-color: $book-background-color;
   position: fixed;
