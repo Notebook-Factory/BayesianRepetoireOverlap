@@ -24,7 +24,7 @@
  */
 
 $left-sidebar-width: 300px;
-$page-max-width: 2000px;
+$page-max-width: 1880px;
 $right-sidebar-width: 220px;
 $topbar-height: 60px;
 
@@ -34,12 +34,6 @@ $topbar-height: 60px;
   height: 100vh;
   overflow: hidden;
   margin: 0 0 0 auto;
-}
-
-
-
-.c-textbook__content, .c-textbook__footer {
-    max-width: 1880px;
 }
 
 .c-topbar {
