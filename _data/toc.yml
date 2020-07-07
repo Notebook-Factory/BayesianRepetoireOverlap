@@ -11,9 +11,24 @@
 - divider: true
 # A chapter w/ a collection of sections beneath it
   header: Code Examples
-- title: Example
-  url: /03Code/manusssscriptCalculations
+- title: Interactive Figures
+  url: /03Code/intro
   not_numbered: true
+  expand_sections: true
+  sections:
+   - title: Fig 2. Inference and uncertainty using the posterior.
+     url: /03Code/Figure2
+   - title: Fig 3. Bayesian repertoire overlap consistently estimates true overlap
+     url: /03Code/Figure3
+   - title: Fig 4. Credible intervals quantify uncertainty in overlap estimates
+     url: /03Code/Figure4
+   - title: Fig 5. Reevaluation of published results
+     url: /03Code/Figure5
+   - title: Fig 6. Quantifying the decrease in uncertainty from increased sequencing
+     url: /03Code/Figure6       
+
+
+
 
 # Divider for meta-pages and content page
 - divider: true
