@@ -3,3 +3,9 @@
     margin: 5px 2px 2px 0px !important;
     float: left !important;
 }
+
+
+.output_png img, p img {
+    max-width: 600px;
+}
+
