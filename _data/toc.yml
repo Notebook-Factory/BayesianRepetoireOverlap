@@ -33,6 +33,10 @@
 # Divider for meta-pages and content page
 - divider: true
 
+- title: Paper 
+  url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1006898
+  external: true
+  not_numbered: true
 - title: Original code 
   url: https://github.com/dblarremore/BayesianRepertoireOverlap
   external: true

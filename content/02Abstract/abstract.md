@@ -1,7 +1,7 @@
 ***
-*Daniel B. Larremore* <sup>1,2,3</sup>
+*Daniel B. Larremore* <sup>1,2</sup>
 
-<sup>1</sup> 1 Department of Computer Science, University of Colorado Boulder, Boulder, Colorado, United States of
+<sup>1</sup> Department of Computer Science, University of Colorado Boulder, Boulder, Colorado, United States of
 America
 <br />
 <sup>2</sup> BioFrontiers Institute, University of Colorado Boulder, Boulder, Colorado, United States of
