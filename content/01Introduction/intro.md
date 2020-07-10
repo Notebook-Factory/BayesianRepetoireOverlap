@@ -4,4 +4,4 @@ Welcome to an interactive Jupyter Book for the research paper: [_Larremore DB (2
 This Jupyter Book This Jupyter Book reproduces their [paper](https://github.com/dblarremore/BayesianRepertoireOverlap/). You can change the code by inline on the pages or launch a MyBinder session to run your code in a Jupyter Notebook in another tab. The figures are made interactive using [Plotly](https://plotly.com).
 
 
-<img src="../images/ploslogo.png"    align="center">
+<img src="images/plos.png" style="width:190px;height:auto;"  align="right">
