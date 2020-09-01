@@ -1,5 +1,5 @@
 ## Bayes-optimal estimation of overlap between populations of fixed size
-*Daniel B. Larremore* | <br> 
+*Daniel B. Larremore*  <br> 
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/zelenkastiot/BayesianRepetoireOverlap/master?filepath=content%2F03Code)
 
@@ -11,9 +11,6 @@ Official repo: https://github.com/dblarremore/BayesianRepertoireOverlap/
 
 
 Jupyter-book: https://zelenkastiot.github.io/BayesianRepetoireOverlap/01Introduction/intro
-
-
-***
 <br>
 
 <hr>
