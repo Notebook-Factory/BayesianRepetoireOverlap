@@ -2,4 +2,4 @@
 chmod +777 /content/03Code/util.py
 
 # build jupyter-lab
-jupyter-lab build
+jupyter lab build
