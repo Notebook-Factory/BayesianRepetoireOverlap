@@ -72,6 +72,10 @@ binder_repo_name: BayesianRepetoireOverlap                        # The name of 
 binder_repo_branch: master                   # The branch on which your textbook is hosted.
 binderhub_interact_text: Launch Binder              # The text that interact buttons will contain.
 
+# Toggle code cells 
+use_toggle_code_button: true
+toggle_code_button_text: Show code
+
 # Thebelab settings
 use_thebelab_button: true                # If 'true', display a button to allow in-page running code cells with Thebelab
 thebelab_button_text: Interact Inline                 # The text to display inside the Thebelab initialization button
