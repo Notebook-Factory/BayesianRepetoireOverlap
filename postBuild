@@ -1,5 +1,5 @@
 # run script
-chmod +777 /content/03Code/util.py
+chmod 777 ~/content/03Code/util.py;
 
 # build jupyter-lab
-jupyter lab build
+jupyter lab build --dev-build=False --minimize=False
