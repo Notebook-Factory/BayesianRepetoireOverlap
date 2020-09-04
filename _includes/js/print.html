@@ -25,7 +25,7 @@ printContent = () => {
 };
 
 
-popup = () => {
+show/hide = () => {
   var els = document.getElementsByClassName("input");
   Array.prototype.forEach.call(els, function(el) {
      if (el.style.display === "none") {
@@ -33,18 +33,17 @@ popup = () => {
     }
      else {
         el.style.display = "none";
-        console.log("I vo else")
+
   }
-    console.log("I tuka stignav");
+
 });
 
-  console.log('Stignav')
 };
 
 initPrint = () => {
 
     <!-- document.querySelector('#interact-button-print').addEventListener('click', printContent) -->
-    document.querySelector('#toggle-code-button').addEventListener('click', popup)
+    document.querySelector('#toggle-code-button').addEventListener('click', show/hide)
 }
 
 initFunction(initPrint)
