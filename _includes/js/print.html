@@ -26,21 +26,45 @@ printContent = () => {
 
 
 showhide = () => {
-  var els = document.getElementsByClassName("input");
+
+
+ if(document.getElementsByClassName("input")==undefined)
+ {
+     var els = document.getElementsByClassName("thebelab-cell");
   Array.prototype.forEach.call(els, function(el) {
      if (el.style.display === "none") {
-         document.getElementsByClassName("output")[0].children[0].style.display = "block";
+
          el.style.display = "block";
 
     }
      else {
-         document.getElementsByClassName("output")[0].children[0].style.display = "none";
 
         el.style.display = "none";
 
   }
 
 });
+ }
+
+ else {
+
+
+     var els = document.getElementsByClassName("input");
+     Array.prototype.forEach.call(els, function (el) {
+         if (el.style.display === "none") {
+             document.getElementsByClassName("output")[0].children[0].style.display = "block";
+             el.style.display = "block";
+
+         } else {
+             document.getElementsByClassName("output")[0].children[0].style.display = "none";
+
+             el.style.display = "none";
+
+         }
+
+     });
+
+ }
 
 };
 
@@ -66,7 +90,7 @@ initPrint = () => {
     document.querySelector('#toggle-code-button').addEventListener('click', showhide)
 
     var els = document.getElementsByClassName("output")[0].children[0].style.display = "none";
- 
+
 }
 
 
