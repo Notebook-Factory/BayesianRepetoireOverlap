@@ -67,14 +67,16 @@ jupyterhub_interact_text: Interact             # The text that interact buttons 
 use_binder_button: true                 # If 'true', add a binder button for interactive links
 binderhub_url: https://mybinder.org                        # The URL for your BinderHub. If no URL, use ""
 binder_repo_base: https://github.com/                     # The site on which the textbook repository is hosted
-binder_repo_org: zelenkastiot                     # The username or organization that owns this repository
+binder_repo_org: FilipVel                     # The username or organization that owns this repository
 binder_repo_name: BayesianRepetoireOverlap                        # The name of the repository on the web
 binder_repo_branch: master                   # The branch on which your textbook is hosted.
 binderhub_interact_text: Launch Binder              # The text that interact buttons will contain.
 
-# Toggle code cells 
-use_toggle_code_button: true
-toggle_code_button_text: Show code
+
+
+
+use_my_button: true                # If 'true', display a button to allow in-page running code cells with Thebelab
+my_button_text: Interact Inline                 # The text to display inside the Thebelab initialization button
 
 # Thebelab settings
 use_thebelab_button: true                # If 'true', display a button to allow in-page running code cells with Thebelab
