@@ -49,6 +49,15 @@ initPrint = () => {
 
 });
 
+
+  var els = document.getElementsByClassName("svg-container");
+  Array.prototype.forEach.call(els, function(el) {
+
+        el.style.zIndex = "0";
+        el.style.marginTop = "-6%";
+
+});
+
     <!-- document.querySelector('#interact-button-print').addEventListener('click', printContent) -->
     document.querySelector('#toggle-code-button').addEventListener('click', showhide)
 }
