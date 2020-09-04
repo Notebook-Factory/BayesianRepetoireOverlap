@@ -64,7 +64,12 @@ initPrint = () => {
 
     <!-- document.querySelector('#interact-button-print').addEventListener('click', printContent) -->
     document.querySelector('#toggle-code-button').addEventListener('click', showhide)
+    
+    var els = document.getElementsByClassName("output")[0].children[0].style.display = "none";
 }
+
+
+
 
 initFunction(initPrint)
 </script>
