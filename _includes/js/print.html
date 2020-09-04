@@ -24,9 +24,16 @@ printContent = () => {
     })
 };
 
+
+popup = () => {
+  alert("I am an alert box!");
+  console.log('Stignav')
+};
+
 initPrint = () => {
 
     <!-- document.querySelector('#interact-button-print').addEventListener('click', printContent) -->
+    document.querySelector('#toggle-code-button').addEventListener('click', popup)
 }
 
 initFunction(initPrint)
