@@ -42,6 +42,13 @@ showhide = () => {
 
 initPrint = () => {
 
+    var els = document.getElementsByClassName("input");
+  Array.prototype.forEach.call(els, function(el) {
+
+        el.style.display = "none";
+
+});
+
     <!-- document.querySelector('#interact-button-print').addEventListener('click', printContent) -->
     document.querySelector('#toggle-code-button').addEventListener('click', showhide)
 }
