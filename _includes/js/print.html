@@ -26,9 +26,9 @@ printContent = () => {
 
 
 showhide = () => {
-
-
- if(document.getElementsByClassName("thebelab-cell")!=undefined)
+console.log(document.getElementsByClassName("thebelab-cell"));
+console.log(document.getElementsByClassName("thebelab-cell")[0].value);
+ if(document.getElementsByClassName("thebelab-cell")[0].value!=undefined)
  {
      var els = document.getElementsByClassName("thebelab-cell");
   Array.prototype.forEach.call(els, function(el) {
