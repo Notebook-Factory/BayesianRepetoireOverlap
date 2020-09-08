@@ -76,7 +76,7 @@ binderhub_interact_text: Launch Binder              # The text that interact but
 
 
 use_toggle_code_button: true
-toggle_code_button_text: Show code               # The text to display inside the Thebelab initialization button
+toggle_code_button_text: Toggle code               # The text to display inside the Thebelab initialization button
 
 # Thebelab settings
 use_thebelab_button: true                # If 'true', display a button to allow in-page running code cells with Thebelab
