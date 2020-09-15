@@ -1,4 +1,4 @@
-# Add a header and sample content section
+# Chapter1: Introduction
 - header: Content
 
 - title: Introduction
@@ -8,37 +8,50 @@
 - title: Abstract
   url: /02Abstract/abstract
   not_numbered: true
+
+# Chapter2: Figures interactive 
 - divider: true
-# A chapter w/ a collection of sections beneath it
-  header: Code Examples
-- title: Interactive Figures
-  url: /03Code/intro
+- header: Figures
+
+- title: Fig 2. Inference and uncertainty using the posterior.
+  url: /03Code/Figure2
+  not_numbered: true
+  
+- title: Fig 3. Bayesian repertoire overlap consistently estimates true overlap
+  url: /03Code/Figure3
   not_numbered: true
   expand_sections: true
   sections:
-   - title: Fig 2. Inference and uncertainty using the posterior.
-     url: /03Code/Figure2
-   - title: Fig 3. Bayesian repertoire overlap consistently estimates true overlap
-     url: /03Code/Figure3
-   - title: Fig 4. Credible intervals quantify uncertainty in overlap estimates
-     url: /03Code/Figure4
-   - title: Fig 5. Reevaluation of published results
-     url: /03Code/Figure5
-   - title: Fig 6. Quantifying the decrease in uncertainty from increased sequencing
-     url: /03Code/Figure6
-   - title: Supplemental Figure - Supporting Information
-     url: /03Code/Supplemental 
+   - title: Fig 3.1. Bayesian repertoire overlap slider
+     url: /03Code/Fig3_final
+     not_numbered: true
 
-
-
-# Divider for meta-pages and content page
+- title: Fig 4. Credible intervals quantify uncertainty in overlap estimates
+  url: /03Code/Figure4
+  not_numbered: true
+  
+- title: Fig 5. Reevaluation of published results
+  url: /03Code/Figure5
+  not_numbered: true
+  
+- title: Fig 6. Quantifying the decrease in uncertainty from increased sequencing
+  url: /03Code/Figure6
+  not_numbered: true
+  
+- title: Supplemental Figure - Supporting Information
+  url: /03Code/Supplemental 
+  not_numbered: true
+  
 - divider: true
 
-- title: Paper 
+# Chapter3: External links section
+- header: External links
+
+- title: Published Paper 
   url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1006898
   external: true
   not_numbered: true
-- title: Original code 
+- title: GitHub repository
   url: https://github.com/dblarremore/BayesianRepertoireOverlap
   external: true
   not_numbered: true
