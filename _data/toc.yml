@@ -13,7 +13,7 @@
 - divider: true
 - header: Figures
 
-- title: Fig 2. Inference and uncertainty using the posterior.
+- title: Fig 2. Inference and uncertainty using the posterior
   url: /03Code/Figure2
   not_numbered: true
   
