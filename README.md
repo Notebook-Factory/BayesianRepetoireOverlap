@@ -1,7 +1,7 @@
 ## Bayes-optimal estimation of overlap between populations of fixed size
 *Daniel B. Larremore*  <br> 
 
-[![Binder](https://github.com/zelenkastiot/binder_badges/blob/master/badges/BayesOverlap-binder.svg)](https://mybinder.org/v2/gh/zelenkastiot/BayesianRepetoireOverlap/master?urlpath=lab/tree/content/03Code)
+[![Binder](https://github.com/zelenkastiot/binder_badges/blob/master/badges/BayesOverlap-binder.svg)](https://mybinder.org/v2/gh/Notebook-Factory/BayesianRepetoireOverlap/master?urlpath=lab/tree/content/03Code)
 
 Published paper: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1006898
 
@@ -9,7 +9,7 @@ Published paper: https://journals.plos.org/ploscompbiol/article?id=10.1371/journ
 Official repo: https://github.com/dblarremore/BayesianRepertoireOverlap/
 
 
-Jupyter-book: https://zelenkastiot.github.io/BayesianRepetoireOverlap/01Introduction/intro
+Jupyter-book: https://Notebook-Factory.github.io/BayesianRepetoireOverlap/01Introduction/intro
 <br>
 
 <hr>
